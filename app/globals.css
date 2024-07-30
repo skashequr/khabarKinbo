@@ -11,7 +11,7 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-
-
-
-
+/* dashboard css */
+.dashboard-container{
+  @apply max-w-screen-xl mx-auto
+}
