@@ -13,5 +13,11 @@ body {
 
 /* dashboard css */
 .dashboard-container{
-  @apply max-w-screen-xl mx-auto
+  @apply max-w-screen-2xl mx-auto
+}
+.db-active{
+  @apply p-2 mb-1 hover:bg-sky-900 bg-sky-900 font-semibold inline-block w-full
+}
+.default{
+  @apply p-2 mb-1 hover:bg-sky-900 font-semibold inline-block w-full
 }
